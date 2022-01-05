@@ -1,0 +1,44 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-around;
+}
+.def-width{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+    
+}
+.banner-img img{
+    width: 80%;
+}
+.banner-text h1{
+    font-size: 45px;
+    line-height: 1.3em;
+    letter-spacing: .02em;
+}
+.banner-text span{
+    color: crimson;
+}
+.p-color{
+    color: #767676;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.def-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-image: linear-gradient(to top right, tomato, tan);
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+}
