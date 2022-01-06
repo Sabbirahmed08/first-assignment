@@ -119,6 +119,36 @@ img{
     width: 35%;
     margin-right: 8%;
 }
+/* contact-section */
+.contact-section{
+    display: flex;
+    margin-top: 100px;
+}
+.contact-form{
+    text-align: center;
+    margin: auto;
+   
+}
+.contact-form h1{
+    font-size: 40px;
+    margin: 15px;
+}
+.contact-form form{}
+.contact-form input{
+    width: 70%;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid crimson;
+}
+.contact-form textarea{
+    width: 72%;
+    border-radius: 8px;
+    border: 2px solid crimson;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+}
 /* FOOTER-section */
 .footer-section{
     text-align: center;
