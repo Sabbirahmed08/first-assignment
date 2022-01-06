@@ -59,21 +59,23 @@ img{
     color: crimson;
 }
 .mission-content{
-    display: flex;  
+    display: flex; 
+    justify-content: space-between; 
     
 }
 .mission-box{
-    width: 25%;
-    margin-left: 5%;
-    padding-left: 1%;
-    
-   
-    border-radius: 10px;
-
+    width: 30%;
+   border-radius: 15px;
+   padding: 30px 30px 20px 20px;
+   margin-right: 20px;
+   align-items: center;
 }
 .mission-box img{
-    width: 130px;
+    width: 50%;
 
+}
+.mission-box p{
+    font-size: 15px;
 }
 .mission-color1{
     background-color: teal;
@@ -83,4 +85,66 @@ img{
 }
 .mission-color3{
     background-color: salmon;
+}
+
+/* third-section */
+.third-section{
+    display: flex;
+    margin-top: 100px; 
+}
+.third-section .third-img{
+    width: 30%;
+    margin-left: 8%;   
+}
+.third-text{
+    width: 50%;
+    margin-left: 5%;
+    padding-right: 10%; 
+}
+.third-text h2{
+    font-size: 35px;
+    line-height: 1.3em;
+}
+/* another-third-section */
+#fourth-part-text{
+    width: 60%;
+    margin-left: 8%;
+    padding-right: 8%;
+}
+#fourth-part-text h2{
+    font-size: 35px;
+    line-height: 1.3em;
+}
+#fourth-part-img{
+    width: 35%;
+    margin-right: 8%;
+}
+/* FOOTER-section */
+.footer-section{
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.footer-section h1{
+    font-size: 30px;
+    margin: 10px 0;
+    
+}
+.footer-section span{
+    color: crimson;
+}
+.footer-section strong{
+    font-size: 12px;
+}
+.footer-section a{
+    display: inline-block;
+    color:crimson;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.footer-section p{
+    color: #767676;
+    font-size: 15px;
 }
